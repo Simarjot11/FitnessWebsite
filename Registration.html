@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Shaan Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Registration_style.css">
+</head>
+
+<body>
+    <header class="header">
+        <!--Left box for logo-->
+        <div class="left">
+            <img src="images/logo.jpg" alt="MY LOGO">
+            <h2>Shaan Fitness</h2>            
+
+        </div> 
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="GetStarted.html" target="_blank">Get Started</a></li>
+                <li><a href="Programs.html" target="_blank">Programs</a></li>
+                <!-- <li><a href="#">Blogs</a></li> -->
+                <li><a href="https://www.medindia.net/doctors/clinical_cal/bmi.asp" target="_blank">BMI Calculator</a></li> 
+                <li><a href="aboutus.html" target="_blank">About us</a></li>
+                <li><a href="contact us.html" target="_blank">Contact us</a></li>
+ 
+             </ul>
+
+        </div>
+    </header>
+    <center>
+        <div class="container">
+            <h1>Lets Start ! Together</h1>
+            <h2>Register Yourself to the best Gym of Mohali </h2>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <select name="gender"> 
+                        <option value="male">Male</option>
+                        <option value="male">Female</option>
+                        <option value="male">Other</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Address</label>
+                    <textarea  name="" placeholder="Enter your Locality"></textarea>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Email id</label>
+                    <input type="email" name="" placeholder="Enter your Email Id">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Select a Program</label>
+                    <select name="program"> 
+                        <option value="p1"> 6 week transformation - Rs 20000</option>
+                        <option value="p2"> Personal training - RS-5000-10000</option>
+                        <option value="p3"> Group training - RS-1000-5000</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <p> Are You Vaccinated?(atleast one dose is compulsary)</p>
+                    <input type="radio"  id="V1" name="Vaccinated" value="Yes">
+                    <label for="V1">YES</label><br>
+                    <input type="radio"   id="V2" name="Vaccinated" value="No">
+                    <label for="V2">NO</label><br>
+                </div>
+                <br>
+
+                <button class="btn"><a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm" target="_blank">Payment</a></button>
+            </form>
+            
+        </div>
+
+    </center>
+    
+</body>
+</html>

@@ -1,0 +1,124 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+    margin:0px;
+    padding:0px;
+    background:url('dumbbell2.jpg');
+    margin-top: auto;
+    Overflow-y:scroll; 
+        
+}
+
+.left{
+    position:absolute;
+    left:34px;
+    top:20px;
+    display:inline-block;
+    
+}
+
+.left img{
+    position: absolute;
+    width:150px;
+}
+
+.left h2{
+    position:relative;
+    top:145px;
+    color:gold;
+    text-align: center;
+
+}
+
+.mid{
+    display:block;
+    width:75%;
+    margin: 15px auto;
+    /*border:1px solid goldenrod;*/
+
+}
+.right{
+    position: absolute;
+    right: 50px;
+    top: 31px;
+    display: inline-block;
+    /* border: 2px solid goldenrod;
+    /*border:2px solid goldenrod;*/
+}
+
+.btn{
+    margin:0px 10px;
+    background-color: gold;
+    color:black; 
+    padding:4px 14px;
+    border: 2px solid grey;
+    border-radius:10px;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:black;
+    color:white;
+
+}
+.navbar{
+    display:inline-block ;
+}
+
+.navbar li{
+    display:inline-block;
+    font-size:25px;
+}
+
+.navbar li a{
+    color:whitesmoke;
+    text-decoration:none;
+    padding:34px 23px;
+
+}
+
+.navbar li a:hover{
+    text-decoration:underline;
+    color: gold;
+
+}
+
+.First_Program{
+    position: relative;
+    top: 200px;
+}
+.First_Program h1{
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.Second_Program{
+    position: relative;
+    top: 350px;
+}
+.Second_Program h1{
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.Third_Program{
+    position: relative;
+    top: 500px;
+}
+.Third_Program h1{
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.Footer{
+    background-color: goldenrod;
+    color: black;
+    width:100%;
+    text-indent: 0%;
+    position: relative;
+    top: 633px;
+}

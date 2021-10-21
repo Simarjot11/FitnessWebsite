@@ -1,0 +1,102 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+    margin:0px;
+    padding:0px;
+    background:url('dumbbell.jpg');
+    margin-top: auto;
+    Overflow-y:scroll; 
+        
+}
+
+
+.btn{
+    margin: 10px 10px;
+    background-color: gold;
+    color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.left{
+    position:absolute;
+    left:34px;
+    top:20px;
+    display:inline-block;
+    
+}
+
+.left img{
+    position: absolute;
+    width:150px;
+}
+
+.left h2{
+    position:relative;
+    top:145px;
+    color:gold;
+    text-align: center;
+
+}
+
+.container h1{
+    position: relative;
+    top: 120px;
+    font-size: -webkit-xxx-large;
+
+}
+
+.container h2{
+    position: relative;
+    top: 170px;
+    font-size: xx-large;
+
+}
+
+form{
+    position: relative;
+    top: 200px;
+
+}
+.mid{
+    display:block;
+    width:70%;
+    margin: 15px auto;
+    /*border:1px solid goldenrod;*/
+
+}
+
+.navbar{
+    display:inline-block ;
+}
+
+.navbar li{
+    display:inline-block;
+    font-size:25px;
+}
+
+.navbar li a{
+    color:whitesmoke;
+    text-decoration:none;
+    padding:34px 23px;
+
+}
+
+.navbar li a:hover{
+    text-decoration:underline;
+    color: gold;
+
+}
+.form-group label{
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+}
+.form-group p{
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+
+}
